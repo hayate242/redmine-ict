@@ -5,7 +5,7 @@
 
 ## installation
 ```
-cd /srv/redmine/
+cd /srv/redmine-ict/
 docker-compose up -d
 ```
 
