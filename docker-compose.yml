@@ -30,7 +30,7 @@ services:
       - ${REDMINE_PATH:-.}/plugins:/usr/src/redmine/plugins
       - ${REDMINE_PATH:-.}/public/themes:/usr/src/redmine/public/themes
       - ${REDMINE_PATH:-.}/repositories:/usr/src/redmine/repositories
-      - ${REDMINE_PATH:-.}/.ssh:/root/.ssh
+      - ${REDMINE_PATH:-.}/.ssh:/home/redmine/.ssh
   mysql:
     container_name: ${REDMINE_DB_MYSQL:-mysql}
     image: mysql:8
