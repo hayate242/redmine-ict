@@ -1,0 +1,7 @@
+default:
+  email_delivery:
+    delivery_method: :smtp
+    smtp_settings:
+      address: 172.18.0.1
+      port: 25
+      domain: redmine.example.jp

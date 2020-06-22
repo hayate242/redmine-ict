@@ -1,0 +1,6 @@
+plugins/
+repositories/
+public/
+log/
+.ssh/
+
